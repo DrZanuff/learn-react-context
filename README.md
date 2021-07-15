@@ -1,19 +1,25 @@
 # A Create React App template on Gitpod
 
-This is a [Create React App](https://create-react-app.dev/) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
+This is was created with [Create React App](https://create-react-app.dev/) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
 
-## Next Steps
+## Objetivos
 
-Click the button below to start a new development environment:
+Como Contextos do React pode ser algo complexo, resolvi fazer um exercício para fixar o conhecimento. No momento que este repositório foi criado, estou fazendo o ignite da RocketSeat, segunda semana. Criei uma simples aplicação que são três componentes e um contexto. A interface visual é bem simples, porque o objetivo era somente aplicar o conceito de Context. Usei Styled-Components para estilização.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-typescript-react)
+### Link da Aplicação
+https://learn-react-context.netlify.app/
 
-## Get Started With Your Own Project
+![Foto](https://i.ibb.co/KbHF2fD/Context.png)
 
-### A new project
+## LastMessage
+Este componente permite mudar o nome do usuário e exibe a última mensagem enviada.
 
-Click the above "Open in Gitpod" button to start a new workspace. Once you're ready to push your first code changes, Gitpod will guide you to fork this project so you own it.
+## SucessMessage e FailureMessage
+O usuáro envia uma mensagem de sucesso ou fracasso
 
-### An existing project
+## useMessage
+Este contexto entrega o nome do usuário e a última mensagem, bem como hooks para mudar o nome e a mensagem. Ele também entrega funções que exibem a mensagem na tela.
 
-To get started with Create React App on Gitpod, add a [`.gitpod.yml`](./.gitpod.yml) file which contains the configuration to improve the developer experience on Gitpod. To learn more, please see the [Getting Started](https://www.gitpod.io/docs/getting-started) documentation.
+## React Hot Toast
+Usei essa biblioteca React para exibir os Toast na tela
+https://react-hot-toast.com/
